@@ -1,0 +1,23 @@
+@media(max-width: 1000px) {
+    .lesson {
+        width: 50%;
+    }
+}
+@media(max-width: 680px) {
+    #maincontent{
+        width: auto;
+        float: none;
+    }
+    #sidebar{
+        width: auto;
+        float: none;
+    }
+}
+@media(max-width: 480px) {
+    #header{
+        height: auto;
+    }
+    #sidebar{
+        display: none;
+    }
+}
